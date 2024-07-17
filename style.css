@@ -265,9 +265,15 @@ header {
     font-size: 35px;
 }
 
+@media (max-width: 1740px){
+    .news-website {
+        padding: 0 110px 0 110px ;
+    }
+}
+
 @media (max-width: 1200px) {
     .news-website {
-        padding: 0 100px 0 100px ;
+        padding: 0 25px 0 25px ;
     }
 
     .main-info {
