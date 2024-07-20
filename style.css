@@ -402,10 +402,10 @@ header {
 
 @media (max-width: 460px) {
     .news-website {
-        padding: 0 30px 0 30px ;
+        padding: 0 10px 0 10px ;
     }
     * {
-        font-size: 20px;
+        font-size: 16px;
     }
     .menu-button {
         margin-left: 100px;
@@ -415,8 +415,11 @@ header {
       }
     .mobile-img {
         display: block;
-        max-width: 350px;
+        max-width: 300px;
     }
+    .new-info a {
+        font-size: 20px;
+      }
     .more-info {
         width: 300px;
     }
@@ -437,7 +440,7 @@ header {
         height: 70px;
     }
     .new-info {
-        max-width: 300px;
+        max-width: 250px;
     }
     .new-info a {
         font-size: 28px;
@@ -445,7 +448,7 @@ header {
     .info-block {
         flex-direction: row;
         text-align: left;
-        min-width: 400px;
+        min-width: 280px;
         padding: 5px 0 0 0;
         min-height: 175px;
     }
@@ -453,14 +456,15 @@ header {
         font-size: 20px;
     }
     .info-block img {
-        height: 175px;
+        width: 100px;
+        height: 150px;
     }
     .info-block p {
-        font-size: 18px;
-        line-height: 21px;
-    }
-    .info-block-text {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .info-block-text {
         height: 170px;
-        width: 245px;
-    }
+        width: 140px;
+      }
 }
